@@ -1,0 +1,95 @@
+# Текстовые файлы резервных копий
+*.bak
+
+#бд
+*.sqlite3
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Расширения 
+*.so
+
+# Распределение/упаковка
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+staticfiles/
+
+# PyInstaller
+# Обычно эти файлы пишутся скриптом Python из шаблона.
+# прежде чем PyInstaller создаст exe-файл, чтобы ввести в него дату/другую информацию.
+*.manifest
+*.spec
+
+# Журналы установщика
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Отчеты о модульном тестировании/покрытии
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+
+# Переводы
+*.mo
+*.pot
+
+# Материалы Джанго:
+*.log
+local_settings.py
+
+# Материал колбы:
+instance/
+.webassets-cache
+
+# Скромные вещи:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# IPython Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# dotenv
+.env
+
+# virtualenv
+venv/
+ENV/
+
+# Spyder project settings
+.spyderproject
+
